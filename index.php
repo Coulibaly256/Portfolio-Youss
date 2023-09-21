@@ -61,7 +61,7 @@ $data = mysqli_fetch_assoc($result);
           <li><a class="nav-link" href="#about">Qui suis-je ?</a></li>
           <li><a class="nav-link" href="#resume">Mon CV</a></li>
           <li><a class="nav-link" href="#services">Services</a></li>
-          <li><a class="nav-link" href="#portfolio">Certifications</a></li>
+          <li><a class="nav-link" href="#portfolio">Réalisations</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -525,9 +525,10 @@ Formation pointue, comprenant l’étude des réseaux informatiques, systèmes �
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">Tout</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-app">Application web</li>
+            <li data-filter=".filter-card">Application mobile</li>
+            <li data-filter=".filter-web">Affiche publicitaire</li>
+            <li data-filter=".filter-web">Montage vidéo</li>
           </ul>
         </div>
       </div>
@@ -539,7 +540,7 @@ Formation pointue, comprenant l’étude des réseaux informatiques, systèmes �
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 1</h4>
-              <p>App</p>
+              <p>Application web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -553,7 +554,7 @@ Formation pointue, comprenant l’étude des réseaux informatiques, systèmes �
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
-              <p>Web</p>
+              <p>Application Mobile</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
