@@ -50,10 +50,10 @@ $data = mysqli_fetch_assoc($result);
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.php"><?=$data['name']?></a></h1>
+      <h1><a href="index.php" style="color:green;"><?=$data['name']?></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>Je suis un <span><?=$data['title']?></span></h2>
+      <h2 style="color:green;">Je suis un <span style="color:red;"><?=$data['title']?></span></h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -689,40 +689,12 @@ Formation pointue, comprenant l’étude des réseaux informatiques, systèmes �
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-        <?php
-        if($data['facebook']){
-        ?>
-          <a href="<?=$data['facebook']?>" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-        <?php
-        }
-        ?>
-
-        <?php
-        if($data['linkedin']){
-        ?>
-          <a href="<?=$data['linkedin']?>" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <?php
-        }
-        ?>
-
-        <?php
-        if($data['github']){
-        ?>
-          <a href="<?=$data['github']?>" target="_blank" class="github"><i class="bi bi-github"></i></a>
-        <?php
-        }
-        ?>
-
-        <?php
-        if($data['whatsapp']){
-        ?>
-          <a href="<?=$data['whatsapp']?>" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-        <?php
-        }
-        ?>
-      </div>
-
-    </div>
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
         </div>
 
@@ -758,7 +730,7 @@ Formation pointue, comprenant l’étude des réseaux informatiques, systèmes �
           <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
         <div class="my-3">
-          <div class="loading">Chargement</div>
+          <div class="loading">Loading</div>
           <div class="error-message"></div>
           <div class="sent-message">Votre message a été envoyé. Merci!</div>
         </div>
